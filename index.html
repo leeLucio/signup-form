@@ -10,40 +10,53 @@
 </head>
 <body>
     
-    <aside>
-        <div>
-            <img src="./assets/odin-lined.png" alt="Odin Logo">
-            <h2>ODIN</h2>
+    <aside class="side-banner">
+        <div class="side-banner__logo">
+            <img src="./assets/odin-lined.png" alt="Odin Logo" class="side-banner__logo__img">
+            <h2 class="side-banner__logo__title">ODIN</h2>
         </div>
-        <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com">Unsplash</a></p>
+
+        <p class="side-banner__img-credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com">Unsplash</a></p>
     </aside>
 
-    <section>
-        <h3>This is not a real online service! You need something like this in your life to help you realize your deepest dreams.<br> Sign up now!</h3>
-        <h3>You know what to do.</h3>
+    <section class="sign-up">
+        <h3 class="sign-up__title">This is not a real online service! You need something like this in your life to help you realize your deepest dreams.<br> Sign up <em>now</em> to get started.</h3>
+        <h3>You <em>know</em> what to do.</h3>
         
-        <form action="#">
+        <form action="#" class="sign-up__form">
             <h3>Let's do this!</h3>
 
-            <label for="fname">First name</label>
-            <input type="text" id="fname" name="first-name">
+            <div class="field">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="first-name">
+            </div>
 
-            <label for="lname">Last name</label>
-            <input type="text" id="lname" name="last-name">
+            <div class="field">
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" name="last-name">
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
 
-            <label for="phone">Phone number</label>
-            <input type="tel" id="phone" name="phone-number">
+            <div class="field">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone-number">
+            </div>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
+            <div class="field"> 
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
 
-            <label for="confirm-pwd">Confirm Password</label>
-            <input type="password" id="confirm-pwd">
+            <div class="field">
+                <label for="confirm-pwd">Confirm Password</label>
+                <input type="password" id="confirm-pwd">
+            </div>
 
-            <button type="submit">Create account</button>
+            <button type="submit">Create Account</button>
         </form>
 
         <div class="login">
