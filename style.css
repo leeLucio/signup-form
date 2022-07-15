@@ -102,6 +102,7 @@ body{
 	color: #555555;
 }
 
+
 .field input{
 	padding: 5px;
 
@@ -109,6 +110,10 @@ body{
 	border-width: 1px;
 	border-radius: 5px;
 	border-color: #cccccc;
+}
+
+.field input:focus{
+	outline-color: #1c78f8;
 }
 
 .sign-up__form button[type="submit"]{
@@ -134,4 +139,12 @@ body{
 	text-decoration: none;
 	color: #596D48;
 	font-weight: 700;
+}
+
+.field .input-error{
+	border-width: 2px;
+	border-color: red;
+}
+.field .input-error:focus{
+	outline-color: red;
 }
