@@ -50,6 +50,8 @@ body{
 
 .side-banner__img-credit {
 	text-align: center;
+	font-size: 0.75rem;
+	margin-bottom: 10px;
 }
 
 .side-banner__img-credit a{
@@ -147,4 +149,9 @@ body{
 }
 .field .input-error:focus{
 	outline-color: red;
+}
+
+.error-message{
+	color: red;
+	font-size: 0.9rem;
 }
